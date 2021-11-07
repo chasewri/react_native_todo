@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "todo-app",
-    "slug": "todo-app",
+    "name": "Plum Todo App",
+    "slug": "plum-todo-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/plum_logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/plum_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,9 +21,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/plum_logo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "plum.plum_todo.plum_todo",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
