@@ -26,17 +26,17 @@ function App() {
           headerShown: false
         }}
       >
-        {user ? (
+        {/* {user ? (     */}
           <>
             <Stack.Screen name="Drawer" component={MainDrawer} />
           </>
-        ) : (
+        {/* ) : (
           <>
             <Stack.Screen name="Login" options={headerStyle}>
               {() => <LoginScreen setUser={setUser} />}
             </Stack.Screen>
           </>
-        )}
+        )} */}
       </Stack.Navigator>
     </NavigationContainer>
   )
