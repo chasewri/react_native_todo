@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/plum_logo.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "plum.plum_todo.plum_todo",
+      "package": "com.plum_todo.plum_todo",
       "versionCode": 1
     },
     "web": {
